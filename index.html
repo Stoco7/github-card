@@ -12,25 +12,28 @@
 
 <body>
     <div class="container">
-        <div class="card text-center pt-5 pb-5">
+        <div class="card text-center pt-5 pb-5" id="espaco-botao">
+            <input type="text" class="form-control" id="usuario">
             <button type="button" class="btn btn-primary btn-lg m-3" id="botao-carregar-dados">Carregar Informações</button>
         </div>
-        <div class="card text-center">
+        <div class="card text-center" id="espaco-cartao">
             <img class="image-card card-img-top" src="fundo.jpg">
             <img class="avatar ms-auto me-auto" src="avatar.png" id="foto">
             <h2 class constante evolução, apaixonado por codificar e transformar ideias em="nome" id="nome">Eduardo Stoco</h2>
             <p class="bio ms-2 me-2" id="resumo">Desenvolvedor focado em criar soluções inteligentes e eficientes. Sempre aprendendo e evoluindo. <br> <strong class="email" id="email"> Stoco.eduardo@gmail.com</strong></p>
             <div class="redes-sociais mb-2 mt-1">
-                <a href="https:github.com" class="btn" id="github">
+                <a href="https:github.com" class="btn" id="github" target="_blank">
                     <i class="bi bi-github"></i>
                 </a>
-                <a href="https:instagram.com" class="btn">
+                <a href="https:instagram.com" class="btn" id="instagram" target="_blank">
                     <i class="bi bi-instagram" id="instagram"></i>
                 </a>
-                <a href="https:dev.to" class="btn" id="blog">
-                    <i class="bi bi-rss"></i>
-                </a>
+                <a href="https://x.com" class="btn" id="twitter" target="_blank">
+                    <i class="bi bi-twitter"></i></a>
             </div>
+            <button type="button" class="btn btn-primary mb-3" id="botao-voltar">
+                <i class="bi bi-search me-2"> Pesquisar outro Usuário</i>
+            </button>
         </div>
     </div>
 
